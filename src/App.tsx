@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 
-import * as BABYLON from 'babylonjs';
-import 'babylonjs-loaders';
-import * as BABYLONMaterials from 'babylonjs-materials';
+import * as BABYLON from '@babylonjs/core';
+import '@babylonjs/loaders';
+// import * as BABYLONMat from '@babylonjs/materials';
 
 function App() {
   const canvas = useRef<HTMLCanvasElement | null>(null);

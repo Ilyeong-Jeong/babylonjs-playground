@@ -220,6 +220,21 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@babylonjs/core@^5.48.0":
+  version "5.48.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-5.48.0.tgz#79e7b7595620ffde86e0d064ccbc1ca50d93f656"
+  integrity sha512-97d+stKdMGGXmmCuYEo9xhz0v0q5DbWSg2GI6mfa+P1qH9YPmWN+YNxwBs0A2H3HrhBrC/PQOTHUibfA867CoQ==
+
+"@babylonjs/loaders@^5.48.0":
+  version "5.48.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/loaders/-/loaders-5.48.0.tgz#a16f69d03770fa8132b5df1dea51667072ad5e0e"
+  integrity sha512-BbZoceGDsUYis86OeAkFq9CQN1yJ59IOL0O0AtogOt8KQ5E8b0sH4MVdOwuV6h07yLVjo9Ir5RZsWKdGyuWHOw==
+
+"@babylonjs/materials@^5.48.0":
+  version "5.48.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/materials/-/materials-5.48.0.tgz#265b2378fe9de01336c40c80b4d2e6594156dfe8"
+  integrity sha512-keAJCXnDUTSh8AerfNYicL4MN3PRwfEqZH1P9opLhzTzCMqMhFROBIFZrxhsoQxF7OnqKuQXqaedTfbVKqd1yA==
+
 "@rollup/pluginutils@^4.1.1":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.1.tgz#1d4da86dd4eded15656a57d933fda2b9a08d47ec"
@@ -271,31 +286,6 @@ ansi-styles@^3.2.1:
   integrity sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==
   dependencies:
     color-convert "^1.9.0"
-
-babylonjs-gltf2interface@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/babylonjs-gltf2interface/-/babylonjs-gltf2interface-4.2.0.tgz#b0ef1e11e3574cf2c6f573d0c5c34857a2a7b322"
-  integrity sha512-Fn/ThxwZWP9kEAqk+9FX9CAeF4ah/I0/8wzAZR8MQuYqlYpEfM+E/IztJ+4LoOOxQYMWNs5lgj8OXSkX0tqc4g==
-
-babylonjs-loaders@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/babylonjs-loaders/-/babylonjs-loaders-4.2.0.tgz#3d536cb72bf8650fe7f1cee12380bea3227d79c0"
-  integrity sha512-GGLvo4ibbSHMY0Kj/DBu4827NBWeDT0NOBi/UuifXltzqPJtJRi3PCEcELj4Ga8cRxkfYi/7PMKcce2zVnpLZA==
-  dependencies:
-    babylonjs "4.2.0"
-    babylonjs-gltf2interface "4.2.0"
-
-babylonjs-materials@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/babylonjs-materials/-/babylonjs-materials-4.2.0.tgz#d521f40dcab7a7f874147bdda86b566294fb0606"
-  integrity sha512-QyfFN2y4D+vH2PILG5nGBi1H9pcBZvUKdPspXe8mkQiujZl6MBoa3U8aNHvmknJoTxaGkdVzdlSHByayXh3Iug==
-  dependencies:
-    babylonjs "4.2.0"
-
-babylonjs@4.2.0, babylonjs@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/babylonjs/-/babylonjs-4.2.0.tgz#8f0d957a726de4c065904b14c2f413f455145d38"
-  integrity sha512-4hniJzWRkV0tDTTYGEHPk1lnfWn0HIw7HOvNWPK0rpUIbJooyeD9E5uVyHnslDedt0mtrA7QZu4i2Cz1DEmSsA==
 
 browserslist@^4.16.6:
   version "4.16.7"
